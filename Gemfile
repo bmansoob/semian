@@ -17,7 +17,8 @@ group :test do
 
   gem "grpc", "1.46.3"
   gem "mysql2", "~> 0.5"
-  gem "activerecord", ">= 7.0.3"
+  # gem "activerecord", ">= 7.0.3"
+  gem "activerecord",  github: "rails/rails", ref: 'eed45ca620ca38f7345f26078822af0330bdb731'
   gem "hiredis", "~> 0.6"
   gem "hiredis-client"
   gem "redis"
